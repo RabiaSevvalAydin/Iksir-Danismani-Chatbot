@@ -1,0 +1,528 @@
+[
+  {
+    "name": "Amortentia",
+    "use_effect": "Causes powerful infatuation or obsession in the drinker toward the person who gave it.",
+    "ingredients": [
+      "Ashwinder eggs",
+      "Rose thorns",
+      "Peppermint",
+      "Powdered moonstone",
+      "Pearl dust"
+    ],
+    "instructions": [
+      "Add Ashwinder eggs to cauldron and heat gently.",
+      "Crush rose thorns and add with peppermint while stirring clockwise.",
+      "Simmer for 10 minutes.",
+      "Add powdered moonstone slowly while chanting the recipient's name.",
+      "Finish with pearl dust and stir until a mother-of-pearl sheen appears."
+    ],
+    "notes": "Recognizable by its distinctive aroma, which varies according to what each individual finds most attractive. Not a true love potion; causes obsession.",
+    "appearance": {
+      "color": "pearly pink",
+      "smell": "individual's most beloved scent",
+      "bottle_shape": "heart-shaped vial"
+    }
+  },
+  {
+    "name": "Felix Felicis",
+    "use_effect": "Grants the drinker extraordinary luck for a period of time.",
+    "ingredients": [
+      "Squill bulb",
+      "Occamy eggshell",
+      "Horseradish",
+      "Powdered common rue",
+      "Heliotrope extract"
+    ],
+    "instructions": [
+      "Boil squill bulb and horseradish until reduced.",
+      "Add powdered Occamy shell and stir rapidly for 3 minutes.",
+      "Mix in common rue and heliotrope extract while heating to golden bubble stage.",
+      "Cool under starlight for 6 hours."
+    ],
+    "notes": "Overuse causes recklessness and giddiness. Illegal in competitive events such as exams and sports.",
+    "appearance": {
+      "color": "molten gold",
+      "smell": "freshly baked bread",
+      "bottle_shape": "teardrop flask"
+    }
+  },
+  {
+    "name": "Veritaserum",
+    "use_effect": "Forces the drinker to tell the truth.",
+    "ingredients": [
+      "Mandrake root",
+      "Jobberknoll feathers",
+      "Wormwood infusion",
+      "Valerian root",
+      "Tincture of thyme"
+    ],
+    "instructions": [
+      "Simmer mandrake root and valerian for 30 minutes.",
+      "Add finely ground Jobberknoll feathers while stirring counter-clockwise.",
+      "Pour in wormwood infusion and boil for 10 minutes.",
+      "Finish with a drop of thyme tincture."
+    ],
+    "notes": "Effects can be resisted by strong will or antidotes. Use is restricted by wizarding law.",
+    "appearance": {
+      "color": "clear with silver shimmer",
+      "smell": "burning parchment",
+      "bottle_shape": "narrow cylinder"
+    }
+  },
+  {
+    "name": "Polyjuice Potion",
+    "use_effect": "Allows the drinker to assume the form of another person.",
+    "ingredients": [
+      "Lacewing flies (stewed for 21 days)",
+      "Leeches",
+      "Powdered bicorn horn",
+      "Knotgrass",
+      "Fluxweed (picked at full moon)",
+      "Shredded Boomslang skin",
+      "Piece of person to transform into (e.g., hair)"
+    ],
+    "instructions": [
+      "Stew lacewing flies and prepare base.",
+      "Add leeches and powdered bicorn horn.",
+      "Add knotgrass and fluxweed with clockwise stir.",
+      "Mix in Boomslang skin and the sample of the target person.",
+      "Let brew for 30 days before use."
+    ],
+    "notes": "Complex and dangerous to brew. Transformation only lasts for one hour.",
+    "appearance": {
+      "color": "thick mud-brown",
+      "smell": "earthy and bitter",
+      "bottle_shape": "heavy stone bottle"
+    }
+  },
+  {
+    "name": "Draught of Living Death",
+    "use_effect": "Puts the drinker into a deep, nearly irreversible sleep.",
+    "ingredients": [
+      "Valerian root",
+      "Wormwood",
+      "Asphodel",
+      "Powdered root of Aconite",
+      "Sloth brain"
+    ],
+    "instructions": [
+      "Boil wormwood and asphodel for 15 minutes.",
+      "Add valerian root and powdered aconite slowly.",
+      "Stir until potion turns deep purple.",
+      "Add sloth brain and reduce to a low simmer."
+    ],
+    "notes": "Very potent. Antidote required for awakening. Used with extreme caution.",
+    "appearance": {
+      "color": "deep purple",
+      "smell": "lavender and ashes",
+      "bottle_shape": "black ceramic bottle"
+    }
+  },
+  {
+    "name": "Wolfsbane Potion",
+    "use_effect": "Allows werewolves to retain their minds during a full moon.",
+    "ingredients": [
+      "Aconite (Wolfsbane)",
+      "Powdered silverweed",
+      "Black pepper",
+      "Mistletoe berries",
+      "Pure spring water"
+    ],
+    "instructions": [
+      "Mix powdered aconite with spring water.",
+      "Add silverweed and black pepper.",
+      "Boil gently and add mistletoe berries.",
+      "Let steep for one hour before cooling and bottling."
+    ],
+    "notes": "Must be taken daily for a week prior to the full moon. Poisonous if brewed incorrectly.",
+    "appearance": {
+      "color": "icy blue",
+      "smell": "mint and pine",
+      "bottle_shape": "small crystal phial"
+    }
+  },
+  {
+    "name": "Pepperup Potion",
+    "use_effect": "Cures the common cold and warms up the drinker.",
+    "ingredients": [
+      "Mandrake root",
+      "Peppercorn",
+      "Cinnamon stick",
+      "Dragon scale dust",
+      "Clove oil"
+    ],
+    "instructions": [
+      "Crush mandrake and peppercorn together.",
+      "Boil with cinnamon until steam curls red.",
+      "Add dragon scale and a drop of clove oil.",
+      "Bottle while hot and spicy."
+    ],
+    "notes": "May cause steam to emit from ears. Safe for general use.",
+    "appearance": {
+      "color": "bright red",
+      "smell": "spiced cinnamon",
+      "bottle_shape": "steam-necked glass"
+    }
+  },
+  {
+    "name": "Skele-Gro",
+    "use_effect": "Regrows lost or removed bones.",
+    "ingredients": [
+      "Troll bone marrow",
+      "Ground dried nettles",
+      "Bone ash",
+      "Sinew strands",
+      "Manticore venom (trace amount)"
+    ],
+    "instructions": [
+      "Boil troll marrow and sinew strands for 10 minutes.",
+      "Mix in nettles and bone ash.",
+      "Add trace of manticore venom carefully.",
+      "Stir vigorously until thick white consistency forms."
+    ],
+    "notes": "Very painful. Only administered under medical supervision.",
+    "appearance": {
+      "color": "milky white",
+      "smell": "burnt bone and herbs",
+      "bottle_shape": "thick medical vial"
+    }
+  },
+  {
+    "name": "Elixir to Induce Euphoria",
+    "use_effect": "Gives the drinker a feeling of intense happiness.",
+    "ingredients": [
+      "Sun dew",
+      "Dandelion root",
+      "Crushed giggle petals",
+      "Orange zest",
+      "Tincture of light essence"
+    ],
+    "instructions": [
+      "Boil sun dew and add dandelion root.",
+      "Infuse with giggle petals while humming.",
+      "Add orange zest and light essence tincture.",
+      "Stir gently with golden spoon for 3 minutes."
+    ],
+    "notes": "Overdose may cause excessive singing or skipping.",
+    "appearance": {
+      "color": "sunlight yellow",
+      "smell": "citrus and honey",
+      "bottle_shape": "bubbly round bottle"
+    }
+  },
+  {
+    "name": "Wiggenweld Potion",
+    "use_effect": "Revives those who have been magically unconscious.",
+    "ingredients": [
+      "Moly plant",
+      "Dittany leaves",
+      "Unicorn hair strand",
+      "Phoenix feather infusion",
+      "Honeywater"
+    ],
+    "instructions": [
+      "Brew moly and dittany for 20 minutes.",
+      "Add unicorn hair and infuse with phoenix feather.",
+      "Stir clockwise 7 times.",
+      "Mix in honeywater and cool in sunlight."
+    ],
+    "notes": "Used as an antidote to the Draught of Living Death.",
+    "appearance": {
+      "color": "glowing green",
+      "smell": "fresh leaves and warmth",
+      "bottle_shape": "twisted glass tube"
+    }
+  },
+  {
+    "name": "Baruffio's Brain Elixir",
+    "use_effect": "Enhances memory, focus, and mental clarity for a limited time.",
+    "ingredients": [
+      "Ginkgo leaves",
+      "Ground scarab beetle",
+      "Essence of rosemary",
+      "Dragon claw shavings",
+      "Silver thistle oil"
+    ],
+    "instructions": [
+      "Simmer ginkgo and scarab beetle for 15 minutes.",
+      "Add rosemary essence and stir clockwise for 6 turns.",
+      "Mix in dragon claw and silver thistle oil slowly.",
+      "Let potion settle until it turns metallic blue."
+    ],
+    "notes": "Not recommended for extended use. May cause temporary dizziness.",
+    "appearance": {
+      "color": "shimmering blue",
+      "smell": "mint and metal",
+      "bottle_shape": "spiral-necked flask"
+    }
+  },
+  {
+    "name": "Fire Protection Potion",
+    "use_effect": "Temporarily protects the drinker from fire or extreme heat.",
+    "ingredients": [
+      "Salamander blood",
+      "Crushed fire seeds",
+      "Flameflower nectar",
+      "Crimson salt",
+      "Powdered ruby"
+    ],
+    "instructions": [
+      "Heat salamander blood until it bubbles lightly.",
+      "Add fire seeds and flameflower nectar.",
+      "Stir counter-clockwise and sprinkle crimson salt.",
+      "Add powdered ruby and remove from flame immediately."
+    ],
+    "notes": "Effective for about 10 minutes. Do not use near water.",
+    "appearance": {
+      "color": "bright orange-red",
+      "smell": "smoky and sharp",
+      "bottle_shape": "flame-shaped phial"
+    }
+  },
+  {
+    "name": "Calming Draught",
+    "use_effect": "Soothes anxiety, panic, or agitation.",
+    "ingredients": [
+      "Chamomile flowers",
+      "Essence of lavender",
+      "Crushed moon petals",
+      "Distilled rainwater",
+      "Feather of a Jobberknoll"
+    ],
+    "instructions": [
+      "Steep chamomile and lavender for 10 minutes.",
+      "Add crushed moon petals and rainwater.",
+      "Whisper a calming chant while stirring with the Jobberknoll feather.",
+      "Cool under moonlight for 3 hours."
+    ],
+    "notes": "Safe for daily use. Effects fade gradually.",
+    "appearance": {
+      "color": "soft lilac",
+      "smell": "floral and misty",
+      "bottle_shape": "rounded jar with cork"
+    }
+  },
+  {
+    "name": "Invisibility Draught",
+    "use_effect": "Temporarily renders the drinker's body transparent or invisible.",
+    "ingredients": [
+      "Chameleon skin",
+      "Whispering fog essence",
+      "Ground unicorn bone",
+      "Mistflower sap",
+      "Spiritroot"
+    ],
+    "instructions": [
+      "Dissolve chameleon skin in whispering fog essence.",
+      "Add unicorn bone powder slowly.",
+      "Mix in sap and spiritroot while chanting the obscuring spell.",
+      "Let brew under a veil for 6 hours."
+    ],
+    "notes": "May cause dizziness when fading back to visibility. Rare and hard to brew.",
+    "appearance": {
+      "color": "nearly clear with silver swirls",
+      "smell": "barely perceptible ozone",
+      "bottle_shape": "faceted translucent cube"
+    }
+  },
+  {
+    "name": "Blood-Replenishing Potion",
+    "use_effect": "Restores lost blood and stabilizes the drinker.",
+    "ingredients": [
+      "Dragon blood (diluted)",
+      "Ground beetroot",
+      "Hellebore extract",
+      "Mugwort",
+      "Unicorn marrow"
+    ],
+    "instructions": [
+      "Boil beetroot and mugwort for 10 minutes.",
+      "Add diluted dragon blood slowly while stirring.",
+      "Drop in hellebore and unicorn marrow last.",
+      "Let rest for 15 minutes before bottling."
+    ],
+    "notes": "Used in medical emergencies. Must be administered with care.",
+    "appearance": {
+      "color": "dark crimson",
+      "smell": "iron and herbs",
+      "bottle_shape": "flat rectangular vial"
+    }
+  },
+  {
+    "name": "Truth Mist",
+    "use_effect": "Causes anyone who inhales it to speak only the truth for a short period.",
+    "ingredients": ["Silver fog extract", "Whispershade petals", "Crushed crystal leaf", "Moonlit dew"],
+    "instructions": [
+      "Mix fog extract and crystal leaf to form a mist.",
+      "Add petals and chant the invocation of clarity.",
+      "Mist over hot flame until glowing.",
+      "Cool quickly to trap vapors."
+    ],
+    "notes": "Only effective when inhaled, not ingested.",
+    "appearance": {
+      "color": "misty silver",
+      "smell": "clean linen and citrus",
+      "bottle_shape": "miniature spray bulb"
+    }
+  },
+  {
+    "name": "Night Vision Elixir",
+    "use_effect": "Temporarily enhances the drinker's vision in complete darkness.",
+    "ingredients": ["Bat wing", "Glowcap mushroom essence", "Nighthawk feather", "Essence of echolocation"],
+    "instructions": [
+      "Boil bat wing with mushroom essence.",
+      "Add feather and chant focus incantation.",
+      "Stir 9 times counter-clockwise.",
+      "Cool in darkness."
+    ],
+    "notes": "May cause temporary light sensitivity.",
+    "appearance": {
+      "color": "inky black with green glow",
+      "smell": "damp cave air",
+      "bottle_shape": "eye-shaped flask"
+    }
+  },
+  {
+    "name": "Stone Skin Tonic",
+    "use_effect": "Hardens the drinker's skin temporarily for protection.",
+    "ingredients": ["Powdered granite", "Mountain troll sweat", "Basilisk scale", "Oak bark extract"],
+    "instructions": [
+      "Crush granite and dissolve in troll sweat.",
+      "Add basilisk scale and bark extract.",
+      "Shake vigorously until paste thins to liquid.",
+      "Let stand on cold stone overnight."
+    ],
+    "notes": "Can slow movement. Use with caution during duels.",
+    "appearance": {
+      "color": "gray-brown",
+      "smell": "dust and iron",
+      "bottle_shape": "chunky stone bottle"
+    }
+  },
+  {
+    "name": "Featherlight Brew",
+    "use_effect": "Temporarily reduces the drinker's weight.",
+    "ingredients": ["Pixie dust", "Willow bark", "Airflower extract", "Dandelion seed oil"],
+    "instructions": [
+      "Mix pixie dust with bark extract.",
+      "Infuse with airflower and dandelion oil.",
+      "Stir until light as foam.",
+      "Seal in floating vial."
+    ],
+    "notes": "Useful for climbing or escaping falls. Avoid strong winds.",
+    "appearance": {
+      "color": "cloudy white",
+      "smell": "fresh air and flowers",
+      "bottle_shape": "hollow feather-shaped tube"
+    }
+  },
+  {
+    "name": "Tongue-Tying Tonic",
+    "use_effect": "Temporarily prevents the drinker from speaking clearly or revealing secrets.",
+    "ingredients": ["Knotgrass", "Gagweed", "Vanishing salt", "Binding vine extract"],
+    "instructions": [
+      "Brew knotgrass and gagweed on low heat.",
+      "Add vanishing salt while muttering protection charm.",
+      "Drizzle in vine extract and bottle immediately.",
+      "Seal with wax sigil."
+    ],
+    "notes": "Used for self-protection against truth potions.",
+    "appearance": {
+      "color": "murky green",
+      "smell": "bitter herbs",
+      "bottle_shape": "twisted gourd flask"
+    }
+  },
+  {
+    "name": "Aquafresh Elixir",
+    "use_effect": "Hydrates the drinker instantly and refreshes the body.",
+    "ingredients": ["Mermaid scale", "River mint", "Crushed glacier ice", "Moonwort oil"],
+    "instructions": [
+      "Grind mermaid scale and mint.",
+      "Add glacier ice and stir until melted.",
+      "Drop in moonwort oil and shake lightly.",
+      "Serve chilled."
+    ],
+    "notes": "Used by Quidditch players and desert travelers.",
+    "appearance": {
+      "color": "clear aqua",
+      "smell": "fresh mint and rain",
+      "bottle_shape": "slim conical vial"
+    }
+  },
+  {
+    "name": "Spark Elixir",
+    "use_effect": "Energizes the drinker, boosting stamina and alertness.",
+    "ingredients": ["Phoenix ash", "Crackling berries", "Zaproot", "Lumos crystal dust"],
+    "instructions": [
+      "Heat phoenix ash until bright red.",
+      "Add berries and zaproot.",
+      "Sprinkle crystal dust and stir rapidly for 5 minutes.",
+      "Cool with icy breath charm."
+    ],
+    "notes": "Can cause hyperactivity. Limit to one dose per day.",
+    "appearance": {
+      "color": "electric yellow",
+      "smell": "ozone and citrus",
+      "bottle_shape": "zigzag glass bolt"
+    }
+  },
+  {
+    "name": "Frostbite Tonic",
+    "use_effect": "Grants resistance to cold environments and ice spells.",
+    "ingredients": ["Frost fern", "Icelandic lichens", "Ice sprite tears", "Bluecap mushrooms"],
+    "instructions": [
+      "Boil frost fern and lichens together.",
+      "Add sprite tears slowly.",
+      "Drop in mushrooms and stir gently with silver spoon.",
+      "Chill overnight in a snow-covered container."
+    ],
+    "notes": "Not effective in magical blizzards.",
+    "appearance": {
+      "color": "pale blue",
+      "smell": "crisp winter air",
+      "bottle_shape": "icicle-styled ampoule"
+    }
+  },
+  {
+    "name": "Echo Elixir",
+    "use_effect": "Allows the drinker to mimic any sound or voice they hear for a short time.",
+    "ingredients": ["Mimicroot", "Echo crystal dust", "Parrot feather", "Hollow reed syrup"],
+    "instructions": [
+      "Mix mimicroot with hollow syrup.",
+      "Add parrot feather and stir rhythmically.",
+      "Dust with echo crystals and chant 'Imita Voce'.",
+      "Bottle in soundproof container."
+    ],
+    "notes": "Duration ~15 minutes. Does not work on musical tones.",
+    "appearance": {
+      "color": "transparent with ripple effects",
+      "smell": "soundless",
+      "bottle_shape": "conical flask with ear-shaped cap"
+    }
+  },
+  {
+  "name": "Veil Draught",
+  "use_effect": "Allows the drinker to see faint echoes of the past in a specific location.",
+  "ingredients": [
+    "Shroud moss",
+    "Distilled memory essence",
+    "Wraithleaf extract",
+    "Ghost orchid petals",
+    "Moonstone dust"
+  ],
+  "instructions": [
+    "Steep shroud moss and ghost orchid petals in warm water for 15 minutes.",
+    "Add distilled memory essence drop by drop while whispering the desired time period.",
+    "Stir with a wand infused with silver hair, clockwise 13 times.",
+    "Mix in wraithleaf extract and moonstone dust simultaneously.",
+    "Bottle immediately in a container exposed to moonlight."
+  ],
+  "notes": "Only works in areas with strong residual magic. Visions are brief and silent.",
+  "appearance": {
+    "color": "translucent silver-gray",
+    "smell": "dusty parchment and candle wax",
+    "bottle_shape": "hourglass-shaped vial"
+    }
+  }
+]

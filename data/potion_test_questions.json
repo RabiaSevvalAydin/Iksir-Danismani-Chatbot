@@ -1,0 +1,131 @@
+[
+  {
+    "question": "Which potion would help if I’m in a noisy environment and want to remain silent?",
+    "answer": ["Tongue-Tying Tonic"]
+  },
+  {
+    "question": "What potion lets you peek into memories lingering in a room?",
+    "answer": ["Veil Draught"]
+  },
+  {
+    "question": "What potion should I avoid during a sports competition due to unfair advantage?",
+    "answer": ["Felix Felicis"]
+  },
+  {
+    "question": "I want someone to fall in love with me, what can i do?",
+    "answer": ["Amortentia"]
+  },
+  {
+    "question": "Which potion should I use if I’m heading into a dark cave?",
+    "answer": ["Night Vision Elixir"]
+  },
+  {
+    "question": "Which potion is best before bedtime to avoid nightmares?",
+    "answer": ["Basic Sleeping Draft"]
+  },
+  {
+    "question": "Which potion should I drink if I need a bit of extra luck today?",
+    "answer": ["Felix Felicis"]
+  },
+  {
+    "question": "I'm feeling really down. Is there a potion that can cheer me up?",
+    "answer": ["Elixir to Induce Euphoria"]
+  },
+  {
+    "question": "Which potion should I avoid taking if I plan to lie later?",
+    "answer": ["Veritaserum"]
+  },
+  {
+    "question": "What potion would help me regenerate a broken bone?",
+    "answer": ["Skele-Gro"]
+  },
+  {
+    "question": "I want to take on someone's appearance. What should I drink?",
+    "answer": ["Polyjuice Potion"]
+  },
+  {
+    "question": "I'm about to face a tough magical exam. Any potion to improve focus?",
+    "answer": ["Wit-Sharpening Potion"]
+  },
+  {
+    "question": "Which potion helps you recover from magical unconsciousness?",
+    "answer": ["Wiggenweld Potion"]
+  },
+  {
+    "question": "I suspect someone is lying to me. What potion might help reveal the truth?",
+    "answer": ["Veritaserum"]
+  },
+  {
+    "question": "I’m heading to the arctic. Is there any potion that helps against cold?",
+    "answer": ["Frostbite Tonic"]
+  },
+  {
+    "question": "Which potion makes you feel light as a feather?",
+    "answer": ["Featherlight Brew"]
+  },
+  {
+    "question": "What should I take if I need to stay awake all night?",
+    "answer": ["Spark Elixir"]
+  },
+  {
+    "question": "Which potion should be taken by a werewolf before the full moon?",
+    "answer": ["Wolfsbane Potion"]
+  },
+  {
+    "question": "I want to make my voice echo across a hall. Is there a potion for that?",
+    "answer": ["Echo Elixir"]
+  },
+  {
+    "question": "What should I use if I want to mimic someone’s voice?",
+    "answer": ["Echo Elixir"]
+  },
+  {"question": "What are the primary ingredients in the Amortentia potion?", "answer": ["Ashwinder eggs", "Rose thorns", "Peppermint", "Powdered moonstone", "Pearl dust"]},
+  {"question": "Which potion causes powerful infatuation in the drinker?", "answer": ["Amortentia"]},
+  {"question": "How long should lacewing flies be stewed for Polyjuice Potion?", "answer": ["21 days"]},
+  {"question": "What potion gives temporary good luck to the drinker?", "answer": ["Felix Felicis"]},
+  {"question": "Which ingredient must be added while chanting the recipient's name in the Amortentia recipe?", "answer": ["Powdered moonstone"]},
+  {"question": "What is the color of the Draught of Living Death?", "answer": ["deep purple"]},
+  {"question": "Which potion allows the drinker to see echoes of the past?", "answer": ["Veil Draught"]},
+  {"question": "Which potion contains Jobberknoll feathers and forces truth-telling?", "answer": ["Veritaserum"]},
+  {"question": "What potion helps werewolves maintain their sanity during a full moon?", "answer": ["Wolfsbane Potion"]},
+  {"question": "What does the Pepperup Potion do?", "answer": ["Cures the common cold", "Warms the drinker"]},
+  {"question": "What is the smell of Amortentia?", "answer": ["individual's most beloved scent"]},
+  {"question": "Which potion can revive someone who is magically unconscious?", "answer": ["Wiggenweld Potion"]},
+  {"question": "Which potion is used as an antidote to the Draught of Living Death?", "answer": ["Wiggenweld Potion"]},
+  {"question": "What color is Felix Felicis?", "answer": ["molten gold"]},
+  {"question": "What is the smell of Pepperup Potion?", "answer": ["spiced cinnamon"]},
+  {"question": "What ingredient gives Skele-Gro its painful regenerative power?", "answer": ["Manticore venom"]},
+  {"question": "Which potion requires chanting 'Imita Voce'?", "answer": ["Echo Elixir"]},
+  {"question": "Which potion has a glowing green appearance?", "answer": ["Wiggenweld Potion"]},
+  {"question": "Which potion should be brewed under starlight?", "answer": ["Felix Felicis"]},
+  {"question": "Which potion includes Phoenix feather infusion?", "answer": ["Wiggenweld Potion"]},
+  {"question": "Which potion causes temporary inability to speak clearly?", "answer": ["Tongue-Tying Tonic"]},
+  {"question": "What potion is stored in a heart-shaped vial?", "answer": ["Amortentia"]},
+  {"question": "Which potion contains Glowcap mushroom essence?", "answer": ["Night Vision Elixir"]},
+  {"question": "Which potion smells like dusty parchment and candle wax?", "answer": ["Veil Draught"]},
+  {"question": "Which potion provides resistance to cold environments?", "answer": ["Frostbite Tonic"]},
+  {"question": "What potion helps regenerate lost bones?", "answer": ["Skele-Gro"]},
+  {"question": "What potion emits steam from ears after drinking?", "answer": ["Pepperup Potion"]},
+  {"question": "Which potion includes knotgrass and is used for secrecy?", "answer": ["Tongue-Tying Tonic"]},
+  {"question": "Which potion is muddy brown and used for transformation?", "answer": ["Polyjuice Potion"]},
+  {"question": "Which potion contains shredded Boomslang skin?", "answer": ["Polyjuice Potion"]},
+  {"question": "Which potion boosts stamina and alertness?", "answer": ["Spark Elixir"]},
+  {"question": "Which potion can only be brewed under moonlight exposure?", "answer": ["Veil Draught"]},
+  {"question": "Which potion causes infatuation but not true love?", "answer": ["Amortentia"]},
+  {"question": "What is the color of the Spark Elixir?", "answer": ["electric yellow"]},
+  {"question": "What potion includes mermaid scale and glacier ice?", "answer": ["Aquafresh Elixir"]},
+  {"question": "Which potion grants vision in complete darkness?", "answer": ["Night Vision Elixir"]},
+  {"question": "Which potion is stored in a bottle shaped like a zigzag bolt?", "answer": ["Spark Elixir"]},
+  {"question": "Which potion includes troll bone marrow and bone ash?", "answer": ["Skele-Gro"]},
+  {"question": "What potion is brewed with sun dew and giggle petals?", "answer": ["Elixir to Induce Euphoria"]},
+  {"question": "Which potion has a 'cloudy white' color and makes you lighter?", "answer": ["Featherlight Brew"]},
+  {"question": "Which potion has a 'murky green' color and bitter herb smell?", "answer": ["Tongue-Tying Tonic"]},
+  {"question": "Which potion uses frost fern and ice sprite tears?", "answer": ["Frostbite Tonic"]},
+  {"question": "Which potion must be sealed with a wax sigil?", "answer": ["Tongue-Tying Tonic"]},
+  {"question": "What is the smell of the Elixir to Induce Euphoria?", "answer": ["citrus and honey"]},
+  {"question": "What potion requires chanting an incantation for clarity?", "answer": ["Truth Mist"]},
+  {"question": "What is the shape of the Echo Elixir’s bottle?", "answer": ["conical flask with ear-shaped cap"]},
+  {"question": "What potion uses parrot feather and echo crystal dust?", "answer": ["Echo Elixir"]},
+  {"question": "What potion uses shroud moss and ghost orchid petals?", "answer": ["Veil Draught"]},
+  {"question": "Which potion requires cooling in darkness?", "answer": ["Night Vision Elixir"]}
+]
