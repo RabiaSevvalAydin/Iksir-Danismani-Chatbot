@@ -1,0 +1,22 @@
+name: openai-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jq
+  - pip:
+      - langchain
+      - langchain_community
+      - python-dotenv
+      - streamlit
+      - langchain_experimental
+      - sentence-transformers
+      - langchain_chroma
+      - langchainhub
+      - pypdf
+      - rapidocr-onnxruntime
+      - langchain_openai
+      - transformers
+      - huggingface_hub
