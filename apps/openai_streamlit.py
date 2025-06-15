@@ -185,8 +185,8 @@ def set_local_background(img_path: str):
 selected_character = st.sidebar.selectbox("Choose a character:", ["Severus Snape", "Fairy Godmother"])
 
 character_background = {
-    "Severus Snape" : "../background_pics/severus_bg_16_9.png",
-    "Fairy Godmother" : r"../background_pics/fairy_godmother_bg_16_9.png"
+    "Severus Snape" : "../background_pics/severus_bg.png",
+    "Fairy Godmother" : r"../background_pics/fairy_godmother_bg.png"
 }
 
 # arka planı ayarla

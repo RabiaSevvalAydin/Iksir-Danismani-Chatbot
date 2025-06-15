@@ -78,6 +78,14 @@ Harry Potter evreninden Severus Snape karakteri ile Shrek 2 filminden Fairy Godm
     ```bash
     GOOGLE_API_KEY = "your_api_key"
     ```
+    * OpenAI API Key Almak İçin:
+        * https://platform.openai.com/account/api-keys adresine girerek OpenAI hesabınıza giriş yapın veya yeni bir hesap oluşturun
+        * Sağ üstte yer alan `Create new secret key` butonuna tıklayarak yeni bir API anahtarı oluşturun.
+        * Oluşturulan anahtarı .env dosyasına kaydedin.
+    * Google Gemini API Key Almak İçin:
+        * https://aistudio.google.com/app/apikey adresine gidin.
+        * Sağ üstte yer alan `Create API key` butonuna tıklayarak yeni bir API anahtarı oluşturun.
+        * Oluşturulan anahtarı .env dosyasına kaydedin.
 
 3. Aşağıdaki komut ile ilgili modelin streamlit uygulamaları başlatılır, fakat öncesinde apps directory'sine geçtiğinizden emin oluns:
     ```bash
@@ -224,3 +232,7 @@ Her metrik için GPT-3.5 modelinin, Gemini 1.5 Pro'ya göre daha başarılı old
 > *You want to be a potion master? Hilarious. You probably can't even boil water without burning it. But fine, if you want to attempt such a feat, start by learning the basics of potion-making. Memorize the ingredients, follow the instructions to the letter, and don't even think about deviating from the recipe. One wrong move and you'll end up poisoning yourself. Good luck, you'll need it.*
 #### Severus Snape (Gemini):
 > *You? A potion master? Don't make me laugh. You'd probably spill the first ingredient. Pathetic. Anyway, based on the information I have, becoming a "potion master" isn't a clearly defined path. There's no official certification or anything. So, good luck with that. You'll need it, considering how inept you seem.*
+
+## Örnek Uygulama Resimleri
+![Uygulama Arayüzü Severus](example_streamlit_images\severus_ss.png)
+![Uygulama Arayüzü Peri Anne](example_streamlit_images\fairy_godmother_ss.png)
