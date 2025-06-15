@@ -176,26 +176,7 @@ Test işlemleri için içinde 69 tane soru-cevap çifti yer alan bir veri seti o
 ## Performans Sonuçları
 
 * Her bir model ve karakter için test veri setindeki sorulara verdikleri cevaplar toplanır. Bu cevaplar test veri setindeki referans cevaplar ile karşılaştırlır. 
-```bash
-| Metric                      |   Severus Snape |   Fairy Godmother |
-|-----------------------------|-----------------|-------------------|
-| ROUGE-1 Precision           |          0.058  |            0.0345 |
-| ROUGE-1 Recall              |          0.8406 |            0.6993 |
-| ROUGE-1 F1                  |          0.1058 |            0.0649 |
-| ROUGE-2 Precision           |          0.0271 |            0.011  |
-| ROUGE-2 Recall              |          0.5954 |            0.3466 |
-| ROUGE-2 F1                  |          0.0506 |            0.0209 |
-| ROUGE-L Precision           |          0.058  |            0.0345 |
-| ROUGE-L Recall              |          0.8406 |            0.6993 |
-| ROUGE-L F1                  |          0.1058 |            0.0649 |
-| BERTScore Precision         |          0.8054 |            0.7949 |
-| BERTScore Recall            |          0.876  |            0.8696 |
-| BERTScore F1                |          0.839  |            0.8304 |
-| Embedding Cosine Similarity |          0.5131 |            0.477  |
-| Entailment                  |         57      |           58      |
-| Neutral                     |          8      |            9      |
-| Contradiction               |          4      |            2      |
-```
+
 ```bash
 | Model          | Karakter      | ROUGE-L F1 | BERTScore F1 | Cosine Similarity | Entailment | Neutral | Contradiction |
 | -------------- | ------------- | ---------- | ------------ | ----------------- | ---------- | ------- | ------------- |
