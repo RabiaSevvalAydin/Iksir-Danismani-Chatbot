@@ -70,10 +70,17 @@ Harry Potter evreninden Severus Snape karakteri ile Shrek 2 filminden Fairy Godm
     conda env create -f environment.yml
     ```
 
-2. `.env` dosyasının içine OpenAI API anahtarı girilir.
-
-3. Aşağıdaki komut ile streamlit uygulamaları başlatılır:
+2. `.env` dosyasının içine hangi model çalıştırılacaksa ona ait anahtar girilir. Sadece tek bir anahtar olmasına dikkat edin
     ```bash
+    OPENAI_API_KEY  = "your_api_key"
+    ```
+    ```bash
+    GOOGLE_API_KEY = "your_api_key"
+    ```
+
+3. Aşağıdaki komut ile ilgili modelin streamlit uygulamaları başlatılır, fakat öncesinde apps directory'sine geçtiğinizden emin oluns:
+    ```bash
+    cd apps
     streamlit run openai_streamlit.py
     ```
 
@@ -81,6 +88,7 @@ Harry Potter evreninden Severus Snape karakteri ile Shrek 2 filminden Fairy Godm
 * Retrieval: LangChain ile Chroma vektör veritabanı
 * Embedding: all-mpnet-base-v2 (Hugging Face)
 * Prompting: Karakterlere özel kişiliklerine özgü sistem promptları
+* LLM: GPT-3.5 & Gemini 1.5
 * UI: Streamlit, dinamik arka planı ve konuşma geçmişi desteği
 
 ## Veri Seti
@@ -168,7 +176,7 @@ Test işlemleri için içinde 69 tane soru-cevap çifti yer alan bir veri seti o
 ## Performans Sonuçları
 
 * Her bir model ve karakter için test veri setindeki sorulara verdikleri cevaplar toplanır. Bu cevaplar test veri setindeki referans cevaplar ile karşılaştırlır. 
-
+```bash
 | Metric                      |   Severus Snape |   Fairy Godmother |
 |-----------------------------|-----------------|-------------------|
 | ROUGE-1 Precision           |          0.058  |            0.0345 |
@@ -187,19 +195,50 @@ Test işlemleri için içinde 69 tane soru-cevap çifti yer alan bir veri seti o
 | Entailment                  |         57      |           58      |
 | Neutral                     |          8      |            9      |
 | Contradiction               |          4      |            2      |
-
-* Fairy Godmother çok fazla açıklama yaptığı için precision'ı düşük, Snape daha kısa cevap verdiği için precision'ı biraz daha yüksek olabilir.
+```
+```bash
+| Model          | Karakter      | ROUGE-L F1 | BERTScore F1 | Cosine Similarity | Entailment | Neutral | Contradiction |
+| -------------- | ------------- | ---------- | ------------ | ----------------- | ---------- | ------- | ------------- |
+| OpenAI GPT-3.5 | Severus Snape | 0.1058     | 0.8390       | 0.5131            | 57         | 8       | 4             |
+| OpenAI GPT-3.5 | Peri Anne     | 0.0649     | 0.8304       | 0.4770            | 58         | 9       | 2             |
+| Gemini 1.5 Pro | Severus Snape | 0.0685     | 0.8351       | 0.5553            | 57         | 8       | 4             |
+| Gemini 1.5 Pro | Peri Anne     | 0.0447     | 0.8243       | 0.5224            | 38         | 27      | 4             |
+```
+*ROUGE-1, ROUGE-2, BERTScore için precision ve recall değerlerini ayrı ayrı görebilmek için test/test_scripts klasöründe yer alan gemini_test.py ve openai_test.py scriptleri çalıştırılabilir.*
 
 ## Sonuçların Değerlendirmesi
 
 #### ROUGE:
-Severus Snape karakteri ROUGE metriklerinde Peri Anne karakterine kıyasla daha yüksek sonuçlar vermiştir. Bu durum Snape'in daha doğrudan ve kısa yanıtlar üretmesinden kaynaklanmaktadır. Peri Anne ise daha süslü bir dil kullandığı için cevapları referans cevaplar ile kelime düzeyinde daha az örtüşmektedir. 
+Her iki model için de Severus Snape karakteri ROUGE metriklerinde Peri Anne karakterine kıyasla daha yüksek sonuçlar vermiştir. Bu durum Snape'in daha doğrudan ve kısa yanıtlar üretmesinden kaynaklanmaktadır. Peri Anne ise daha süslü bir dil kullandığı için cevapları referans cevaplar ile kelime düzeyinde daha az örtüşmektedir. 
 
 #### BERTScore
 Her iki karakter için de yüksek semantik benzerlik elde edilmiştir. Snape küçük bir farkla öne geçmiştir. Bu sonuçlar iki karakterinde bağlama uygun yanıtlar verdiğini göstermektedir.
 
 #### Cosine Similarity
-Snape'in cevapları embedding düzeyinde biraz daha fazla benzerlik göstermiştir. Bu karakterin daha direkt cevaplar verdiğini desteklemektedir.
+Snape'in cevapları peri anneye göre embedding düzeyinde biraz daha fazla benzerlik göstermiştir. Bu karakterin daha direkt, kısa cevaplar verdiğini desteklemektedir.
 
 #### Entailment
 Hem Snape hem de Peri Anne karakterleri çoğunlukla tutarlı yanıtlar üretmiştir. 
+
+Her metrik için GPT-3.5 modelinin, Gemini 1.5 Pro'ya göre daha başarılı olduğu görülmüştür. Bunun sistem promptları ve temperature değerleri aynı verilmesine rağmen Gemini'nin cevaplarının daha yaratıcı, yorum açısından daha baskın olduğundan dolayı oluştuğu düşünülmektedir. Aşağıda aynı soruya GPT ve Gemini modelinin verdiği bazı yanıtlar paylaşılmıştır. Bu yanıtlar incelendiğinde Gemini'nin GPT'e göre daha yaratıcı ve üslup açısından çeşitliliğe sahip yanıtlar verdiği görülmektedir.
+
+#### Kullanıcı:
+> *Hello.*
+#### Severus Snape (GPT):
+> *Cut the pleasantries. What do you want to know about potions?*
+#### Severus Snape (Gemini):
+> *State your query, simpleton. I haven't got all day to listen to your pathetic greetings. Don't waste my time.*
+
+#### Kullanıcı:
+> *Tell me something fun.*
+#### Severus Snape (GPT):
+> *I don't have time for your trivial requests. If you have a serious potion-related question, ask. If not, leave.*
+#### Severus Snape (Gemini):
+> *Fun? You think I have time for such frivolous nonsense? I deal with serious alchemical matters, not your pathetic attempts at amusement. If you want "fun," go drink a Laughter Potion and leave me alone. Though, knowing you, you'd probably mess that up too.*
+
+#### Kullanıcı:
+> *I want to be a potion master.*
+#### Severus Snape (GPT):
+> *You want to be a potion master? Hilarious. You probably can't even boil water without burning it. But fine, if you want to attempt such a feat, start by learning the basics of potion-making. Memorize the ingredients, follow the instructions to the letter, and don't even think about deviating from the recipe. One wrong move and you'll end up poisoning yourself. Good luck, you'll need it.*
+#### Severus Snape (Gemini):
+> *You? A potion master? Don't make me laugh. You'd probably spill the first ingredient. Pathetic. Anyway, based on the information I have, becoming a "potion master" isn't a clearly defined path. There's no official certification or anything. So, good luck with that. You'll need it, considering how inept you seem.*
