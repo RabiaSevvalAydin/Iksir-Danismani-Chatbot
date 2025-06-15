@@ -1,0 +1,5 @@
+Model,Karakter,ROUGE-L (F1),BERTScore (F1),Cosine Similarity,Entailment,Neutral,Contradiction
+OpenAI GPT-3.5,Severus Snape,0.1058,0.839,0.5131,57,8,4
+OpenAI GPT-3.5,Peri Anne,0.0649,0.8304,0.477,58,9,2
+Gemini 1.5 Pro,Severus Snape,0.0685,0.8351,0.5553,57,8,4
+Gemini 1.5 Pro,Peri Anne,0.0447,0.8243,0.5224,38,27,4
