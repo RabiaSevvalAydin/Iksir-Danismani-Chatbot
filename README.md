@@ -65,9 +65,10 @@ Harry Potter evreninden Severus Snape karakteri ile Shrek 2 filminden Fairy Godm
 
 ## Kurulum
 
-1. Environment.yml dosyası kullanılarak conda ortamı oluşturulur:
+1. Environment.yml dosyası kullanılarak conda ortamı oluşturulur ve aktive edilir:
     ```bash
     conda env create -f environment.yml
+    conda activate potions_env
     ```
 
 2. `.env` dosyasının içine hangi model çalıştırılacaksa ona ait anahtar girilir. Sadece tek bir anahtar olmasına dikkat edin
