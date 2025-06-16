@@ -235,5 +235,7 @@ Her metrik için GPT-3.5 modelinin, Gemini 1.5 Pro'ya göre daha başarılı old
 
 ## Örnek Uygulama Resimleri
 Uygulamaya ait resimler example_streamlit_images klasöründe bulunmaktadır.
-![Uygulama Arayüzü Severus](example_streamlit_images\severus_ss.png)
-![Uygulama Arayüzü Peri Anne](example_streamlit_images\fairy_godmother_ss.png)
+
+
+![Uygulama Arayüzü Severus](example_streamlit_images/severus_ss.png)
+![Uygulama Arayüzü Peri Anne](example_streamlit_images/fairy_godmother_ss.png)
