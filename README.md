@@ -234,5 +234,6 @@ Her metrik için GPT-3.5 modelinin, Gemini 1.5 Pro'ya göre daha başarılı old
 > *You? A potion master? Don't make me laugh. You'd probably spill the first ingredient. Pathetic. Anyway, based on the information I have, becoming a "potion master" isn't a clearly defined path. There's no official certification or anything. So, good luck with that. You'll need it, considering how inept you seem.*
 
 ## Örnek Uygulama Resimleri
+Uygulamaya ait resimler example_streamlit_images klasöründe bulunmaktadır.
 ![Uygulama Arayüzü Severus](example_streamlit_images\severus_ss.png)
 ![Uygulama Arayüzü Peri Anne](example_streamlit_images\fairy_godmother_ss.png)
